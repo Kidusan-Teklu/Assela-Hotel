@@ -4,5 +4,5 @@ we are working on website that is named as Assela Hotel  using only html and css
               1,👨‍💼 Kidusan Teklu     (Kidusan-Teklu)
               2,👨‍💼 Aweke Damtew      (awe-code)
               3,👨‍💼 Awel Feyo         (awela-feyo)
-              4,👩‍💼 Nardos Telaye     (Narrdos)
+              4,👩‍💼 Nardos Telaye     (narrdos)
               5,👨‍💼 Anuwar Shemsu     (anuki27)
