@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0PX;
     padding: 0PX;
@@ -30,6 +33,14 @@ header{
 display: flex;
 align-items: center;
 height: 100px;
+
+}
+.top ul{
+   float: left; 
+}
+.top #logo{
+    width: 30%;
+    height: 110%;
 }
 .top h1{
     background: linear-gradient(red,rgb(210, 75, 75),rgba(245, 109, 109, 0.932),rgb(229, 130, 130));
@@ -56,7 +67,12 @@ height: 100px;
 }
 .navbar li{
 float: left;
-padding: 10px;
-padding-right: 35px;
+padding: 20px;
+
 
 }
+.navbar a:hover{
+    background-color: rgb(7, 14, 75)0, 26, 255)0, 26, 255);
+}
+
+
