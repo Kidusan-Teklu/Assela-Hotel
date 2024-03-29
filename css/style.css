@@ -39,6 +39,7 @@ height: 100px;
   display: flex;
    flex-direction: row;
    list-style-type: none;
+   text-decoration: none;
 }
 .top i{
     margin: 5px;
