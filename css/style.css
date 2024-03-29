@@ -36,7 +36,12 @@ height: 100px;
 
 }
 .top ul{
-   float: left; 
+  display: flex;
+   flex-direction: row;
+   list-style-type: none;
+}
+.top i{
+    margin: 5px;
 }
 .top #logo{
     width: 30%;
@@ -46,7 +51,7 @@ height: 100px;
     background: linear-gradient(red,rgb(210, 75, 75),rgba(245, 109, 109, 0.932),rgb(229, 130, 130));
     background-clip: text;
     color: transparent;
-    margin: 20px;
+    margin:0px ;
     text-align: center;
 }
 
@@ -62,7 +67,7 @@ height: 100px;
     color: #ffffff;
     text-decoration: none;
     display: block;
-    margin: 10px;
+    margin: 0px;
 
 }
 .navbar li{
@@ -72,7 +77,8 @@ padding: 20px;
 
 }
 .navbar a:hover{
-    background-color: rgb(7, 14, 75)0, 26, 255)0, 26, 255);
+    color:#00a8e8;
+    
 }
 
 
