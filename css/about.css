@@ -1,0 +1,25 @@
+
+main{
+    height: auto;
+    font-size: 18px;
+    background-color: #efefef;
+}
+.intro{
+    padding: 10px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 540;
+    color:#22223b ;
+    overflow: hidden;
+    display: inline-flex;
+}
+.intro h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 800;
+color: #9b2226;
+text-decoration: underline;
+}
+article{
+    width: 50%;
+    margin: 5px;
+}
