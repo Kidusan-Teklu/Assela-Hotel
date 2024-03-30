@@ -24,7 +24,7 @@ header{
     margin: 0Px; 
    padding: 0px 0; 
     z-index: 1000; 
-    height: 200px;
+    height: 120px;
 }
 
 .top{
@@ -33,14 +33,23 @@ header{
 display: flex;
 align-items: center;
 height: 100px;
+background-color: #f5ebe0;
 
 }
 .top ul{
   display: flex;
    flex-direction: row;
+  margin-left:30% ;
    list-style: none;
    text-decoration: none;
+   
 }
+.top ul li a{
+    color: black;!important
+    font-weight:700 ;
+
+}
+
 .top i{
     margin: 5px;
 }
@@ -61,7 +70,7 @@ height: 100px;
     
     padding: 0px;
     margin: 0px;
-   background-color:#023047;
+   background-color:#212121;
    overflow: hidden; 
 }
 .navbar a{
@@ -91,48 +100,48 @@ footer {
     color: #fff;
 }
 
-.footer-contact, .footer-links, .footer-social, .footer-info {
+.f-contact, .f-links, .f-social, .f-info {
     flex: 1 1 200px;
     margin: 10px;
 }
 
-.footer-contact h3, .footer-links h3, .footer-social h3, .footer-info h3 {
+.f-contact h3, .f-links h3, .f-social h3, .f-info h3 {
     font-size: 22px;
     margin-bottom: 10px;
 }
 
-.footer-contact p, .footer-links ul, .footer-social ul, .footer-info p {
+.f-contact p, .f-links ul, .f-social ul, .f-info p {
     font-size: 18px;
     line-height: 1.6;
 }
 
-.footer-links ul {
+.f-links ul {
     list-style: none;
     padding: 0;
     transition: all 0.3s ease;
 }
 
-.footer-links ul li {
+.f-links ul li {
     margin-bottom: 5px;
 }
 
-.footer-links ul li a {
+.f-links ul li a {
     text-decoration: none;
     color: #fff;
 }
 
-.footer-social ul {
+.f-social ul {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-social ul li {
+.f-social ul li {
     margin-right: 10px;
 }
 
-.footer-social ul li a {
+.f-social ul li a {
     display: inline-block;
 	height: 40px;
 	width: 40px;
@@ -145,7 +154,7 @@ footer {
 	transition: all 0.5s ease;
 }
 
-.footer-info a {
+.f-info a {
     text-decoration: none;
     color: #fff;
 }
