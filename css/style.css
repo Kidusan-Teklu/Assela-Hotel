@@ -25,6 +25,7 @@ header{
    padding: 0px 0; 
     z-index: 1000; 
     height: 120px;
+   
 }
 
 .top{
@@ -47,7 +48,6 @@ background-color: #f5ebe0;
 .top ul li a{
     color: black;!important
     font-weight:700 ;
-
 }
 
 .top i{
@@ -96,7 +96,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    font-weight: 600;
+    font-weight: 570;
     color: #fff;
 }
 
