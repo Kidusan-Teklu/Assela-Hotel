@@ -33,7 +33,7 @@ header{
     padding: 0px;
 display: flex;
 align-items: center;
-height: 100px;
+height: 60%;
 background-color: #f5ebe0;
 
 }
@@ -57,13 +57,7 @@ background-color: #f5ebe0;
     width: 30%;
     height: 110%;
 }
-.top h1{
-    background: linear-gradient(red,rgb(210, 75, 75),rgba(245, 109, 109, 0.932),rgb(229, 130, 130));
-    background-clip: text;
-    color: transparent;
-    margin:0px ;
-    text-align: center;
-}
+
 
 .navbar ul{
     list-style-type: none;
