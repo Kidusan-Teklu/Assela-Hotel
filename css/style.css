@@ -40,7 +40,8 @@ background-color: #f5ebe0;
 .top ul{
   display: flex;
    flex-direction: row;
-  margin-left:30% ;
+  margin-right: 0%;
+  padding-right: 5%;
    list-style: none;
    text-decoration: none;
    
@@ -81,8 +82,8 @@ padding: 20px;
 
 }
 .navbar a:hover{
-    color:#00a8e8;
-    
+    color:#9c6644;
+    font-size: 1.02EM;
 }
 footer {
     background-color: #343a40;
@@ -112,7 +113,7 @@ footer {
 .f-links ul {
     list-style: none;
     padding: 0;
-    transition: all 0.3s ease;
+    
 }
 
 .f-links ul li {
@@ -145,13 +146,34 @@ footer {
 	line-height: 40px;
 	border-radius: 50%;
 	color: #fff;
-	transition: all 0.5s ease;
+	
 }
 
 .f-info a {
     text-decoration: none;
     color: #fff;
 }
+.f-links ul li a {
+    transition: color 0.3s ease;
+}
 
+.f-links ul li a:hover,.f-contact p:hover,.f-info p:hover,a:hover {
+    color: #ff6600;
+    font-size: 1.05em;
+}
+
+
+.f-social ul li a {
+    transition: transform 0.3s ease;
+   
+}
+
+.f-social ul li a:hover {
+    transform: scale(1.2);
+      color: #000 ;
+    background-color: #fff;
+}
+
+NA
 
 
