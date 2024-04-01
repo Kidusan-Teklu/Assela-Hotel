@@ -6,12 +6,10 @@ body{
     padding: 0PX;
 }
 main {
-    position: relative;
+    
     width: 100%;
     height: 100%; 
     overflow: hidden; 
-   
-     
      display: flex;
      flex-direction: column;
      padding-top: 60px;
@@ -88,17 +86,23 @@ padding: 20px;
 .home { 
     margin-top: 10%;
     height:70%;
+    margin-left: 10px;
 }
 .main1 h1{
     color: #ff6600;
     text-align: center;
+    
    
+}
+.main1 pre{
+    color: goldenrod;
+    text-align: center;
 }
 .main1 h3{
     width: 80%;
     height: 40px;
     padding: 1%;
-        margin: 10%;
+       
         background-color: blue;
         color: azure;
         text-align: center;
@@ -107,14 +111,18 @@ padding: 20px;
         border-radius: 5PX;
         position: relative;
 }
-.home h1{
-    display: flex;
-    flex-direction:row ;
+.pics img{
+    width: 100%;
+    margin-right: 10px;
+}
+.home .main1{
+background-color: #808080;
+margin-bottom: 15px;
 }
 .main1 .pics{
     display: flex;
-    flex-direction: column;
-    max-width: 50%;
+    flex-direction:row;
+    max-width: 25%;
 }
 .main1 a{
     text-decoration: none;
