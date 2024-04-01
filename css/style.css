@@ -85,8 +85,39 @@ padding: 20px;
     color:#9c6644;
     font-size: 1.02EM;
 }
-.home .main1 div img {
-    height:200px;
+.home { 
+    margin-top: 10%;
+    height:70%;
+}
+.main1 h1{
+    color: #ff6600;
+    text-align: center;
+   p
+}
+.main1 h3{
+    width: 80%;
+    height: 40px;
+    padding: 1%;
+        margin: 10%;
+        background-color: blue;
+        color: azure;
+        text-align: center;
+        align-items: center;
+        border: 1PX;
+        border-radius: 5PX;
+        position: relative;
+}
+.home h1{
+    display: flex;
+    flex-direction:row ;
+}
+.main1 .pics{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+.main1 a{
+    text-decoration: none;
 }
 footer {
     background-color: #343a40;
@@ -95,7 +126,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     font-weight: 570;
-    color: #fff;
+    color: #884040;
 }
 
 .f-contact, .f-links, .f-social, .f-info {
