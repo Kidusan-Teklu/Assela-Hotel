@@ -85,6 +85,9 @@ padding: 20px;
     color:#9c6644;
     font-size: 1.02EM;
 }
+.home .main1 div img {
+    height:200px;
+}
 footer {
     background-color: #343a40;
     padding: 20px;
