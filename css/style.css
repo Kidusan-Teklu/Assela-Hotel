@@ -84,32 +84,45 @@ padding: 20px;
     font-size: 1.02EM;
 }
 .home { 
-    margin-top: 10%;
+    margin-top: 5%;
     height:70%;
     margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .main1 h1{
     color: #ff6600;
     text-align: center;
     
    
+}B
+.main1 h2{
+    color: #99582a;
 }
 .main1 pre{
-    color: goldenrod;
+    color:#03045e;
+font-weight: 550;
     text-align: center;
+    font-size: larger;
 }
 .main1 h3{
     width: 80%;
     height: 40px;
     padding: 1%;
        
-        background-color: blue;
-        color: azure;
+        background-color:#3333ff;
+        color: #fff;
         text-align: center;
         align-items: center;
         border: 1PX;
         border-radius: 5PX;
         position: relative;
+}
+.main1 a:hover{
+    transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
 }
 .pics img{
     width: 100%;
@@ -126,6 +139,9 @@ margin-bottom: 15px;
 }
 .main1 a{
     text-decoration: none;
+}
+.main1 h4{
+    color: #800000;
 }
 footer {
     background-color: #343a40;
@@ -197,6 +213,10 @@ footer {
 }
 .f-links ul li a {
     transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
 }
 
 .f-links ul li a:hover,.f-contact p:hover,.f-info p:hover,a:hover {

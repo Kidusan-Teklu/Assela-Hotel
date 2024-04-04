@@ -26,7 +26,9 @@ text-decoration: underline;
     display: flex;
     flex-wrap: wrap;
 }
-
+.intro h3{
+    color: #e85d04;
+}
 .intro article {
     flex: 1 1 60%;
     margin-right: 20px; 
@@ -38,7 +40,7 @@ text-decoration: underline;
 }
 .pics img {
     width: 100%;
-    margin-bottom: 20px; 
+    margin-bottom: 20px; }
 @media (max-width: 768px) {
     .intro {
         flex-direction: column;
@@ -56,25 +58,24 @@ text-decoration: underline;
     display: flex;
     flex-direction: row;
     float: left;
+
 }
 
-.location a{
-    display: block;
-    transition: 0.5s;
-    text-decoration: none;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    color: black;!important
+.location h2{
+color: #780000;
 }
 .location div {
     width: 50%;
 }
-.location ul{
+.location .taxi ul{
+    margin-left: 2%;
     width: 50%;
 }
-.location  a{
-    color: black;
+.taxi ul li a{
+    text-decoration: none;
+    color: #e85d04;
+}
+.taxi ul li a:hover{
+    color: #05299e;
 }
 
