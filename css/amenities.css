@@ -1,29 +1,45 @@
 main{
     padding: 10px;
     border: 2px;
-    background-color:bisque ;
+    background-color:#ced4da;
     display: flex;
     flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 700;
+    overflow: hidden;
 }
 main h2{
    text-align: center;
-    font-weight: 800;
+    font-weight: 900;
     color: coral;}
+    main h2:hover{
+       color: blue;
+        text-decoration: underline;
+    }
 .pics1{
     display: flex;
     flex-direction: row;
 }
 .pics1 img{
     width: 50%; 
-    height:400px;
-    margin:  10px;
+    height:auto;
+    margin:  5px;
 }
-.restaurant,.bar,.pool{
+.restaurant,.bar,.pool,.GYM,.SPA,.WIFI,.PARKING{
    margin: 10px;
-    width: 100%;
+    width: 50%;
 }
-.br,.sg{
+.br,.sg,.WP{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: cornflowerblue;
+}
+.SPA .pics1 img{
+    width: 60%;
+    height: auto;
+
+}
+#spa{
+margin-left: 20%;
 }
