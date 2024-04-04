@@ -1,3 +1,28 @@
+.hall{
+    width: 100%;
+}
+
+.headerr
+{
+border-radius: 10px;
+color: red;
+text-align: center;
+font-family: cursive;
+
+margin: auto;
+margin-top:0px;
+}
+.event_hall img,p
+{
+    margin-left: 15px;
+}
+.event_hall img
+{
+    margin-left: 10px;
+    text-align: center;
+    width: 850px;
+}
+
 .event_hall
 {
     overflow: hidden;
