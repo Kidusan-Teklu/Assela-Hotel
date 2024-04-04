@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 main {
     padding: 200px;
-}
+   
+    }
+
 
 section {
     margin-bottom: 20px;
@@ -20,12 +24,15 @@ section h2 {
 
 ul {
     list-style: none;
-}
+    font-weight: 900;
+    }
+
 
 label {
     display: block;
     margin-bottom: 5px;
     padding: 0%;
+    font-weight: 900;
 }
 
 input[type="text"],
@@ -36,21 +43,31 @@ textarea {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-
+    
 }
-
-input[type="submit"] {
+#contact-form a{
     background-color: #8d968f;
     color: #bb1e1e;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    
 }
 
 input[type="submit"]:hover {
     background-color: #555;
 }
 
-
-
+#contact-info{
+    font-weight:bold;
+    font-style: oblique;
+    
+}
+#contact-form{
+    font-size: x-large;
+}
+#contact-info h2{
+    font-size: x-large;
+    font-weight: bold;
+}
 
