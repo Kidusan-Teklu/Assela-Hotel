@@ -1,0 +1,39 @@
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+
+  .room-type {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+  .room-type img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+    max-width: 40%; 
+    height: auto; 
+  }
+
+  .room-type img:hover {
+    transform: scale(1.1);
+  }
+
+  .room-type h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(228, 83, 30);
+    font-weight: 900;
+  }
+
+  .room-type p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 700;
+  }
