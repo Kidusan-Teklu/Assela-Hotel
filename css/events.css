@@ -4,7 +4,7 @@
 
 .headerr
 {
-border-radius: 10px;
+
 color: red;
 text-align: center;
 font-family: cursive;
@@ -23,6 +23,22 @@ margin-top:0px;
     width: 850px;
 }
 
+.event_hall h2
+{
+    color: red;
+    text-align: center;
+    font-family: cursive; 
+}
+.hall p b
+{
+color: red;
+font-size: larger;
+font-family: cursive;
+}
+.hall p
+{
+    font-family: cursive;
+}
 .event_hall
 {
     overflow: hidden;
