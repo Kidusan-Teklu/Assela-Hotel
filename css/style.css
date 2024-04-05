@@ -143,6 +143,9 @@ margin-bottom: 15px;
 .main1 h4{
     color: #800000;
 }
+main img:hover{
+    transform: scale(1.1);
+}
 footer {
     background-color: #343a40;
     padding: 20px;

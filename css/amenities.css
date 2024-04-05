@@ -1,7 +1,7 @@
 main{
     padding: 10px;
     border: 2px;
-    background-color:#ced4da;
+    background-color:#;
     display: flex;
     flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
@@ -31,15 +31,33 @@ main h2{
     width: 50%;
 }
 .br,.sg,.WP{
-    width: 100%;
+    
     display: flex;
     flex-direction: row;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 15px;
+    background-color: #c9c4c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+
 }
 .SPA .pics1 img{
-    width: 60%;
+    width: 30%;
     height: auto;
 
 }
 #spa{
 margin-left: 20%;
+
+}
+.SPA{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 15px;
+    background-color: #c9c4c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
 }

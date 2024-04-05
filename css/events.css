@@ -1,5 +1,5 @@
 main{
-    background-color: gray;
+    background-color: #fff;
     margin-left: 70px;
 }
 
@@ -41,11 +41,21 @@ font-family: cursive;
 }
 .hall
 {
-width: 100%;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 15px;
+    background-color: #c9c4c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 
 }
 
 .wedding
 {
-    width: 100%;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 15px;
+    background-color: #c9c4c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

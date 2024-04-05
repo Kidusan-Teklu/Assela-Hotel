@@ -1,7 +1,16 @@
 main
 {
     margin-left: 70px;
-    background-color: gray;
+    background-color: #fff;
+}
+.gallery{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 15px;
+    background-color: #c9c4c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
 }
 
 .gallery table tr td img
@@ -14,7 +23,7 @@ margin: 0px;
 }
 .gallery table
 {
-width: 90%;
+width: 70%;
 }
 .gallery h2
 {

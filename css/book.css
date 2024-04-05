@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+
+  main {
+    padding: 20px;
+    width: 90%;
+    overflow: hidden;
+    height: auto;
+    background-image: url(../images/book1.jpg);
+    background-size: cover;
+  }
+  .book{
+    width: 60%;
+    margin: 0px 20%;
+    font-style: oblique;
+    color: rgb(146, 22, 14);
+    font-weight: 700;
+    backdrop-filter: blur(10px);
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  color: firebrick;
+  }
+
+  form {
+    
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input[type="date"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  .book{
+    width: 60%;
+    margin: 0px 20%;
+    font-style: oblique;
+  }
+
+  

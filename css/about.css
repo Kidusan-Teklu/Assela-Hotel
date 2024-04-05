@@ -2,14 +2,14 @@
 main{
     height: auto;
     font-size: 22px;
-    background-color: #efefef;
+    background-color: #fff;
     overflow: hidden;
 }
 .intro{
    
     padding: 10px;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 540;
     color:#22223b ;
     overflow: hidden;
@@ -22,6 +22,24 @@ color: #9b2226;
 text-decoration: underline;
 }
 
+article{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 15px;
+    background-color: #c9c4c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+}
+.pics{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 15px;
+    background-color: #c9c4c4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+}
 .intro {
     display: flex;
     flex-wrap: wrap;
@@ -78,4 +96,5 @@ color: #780000;
 .taxi ul li a:hover{
     color: #05299e;
 }
+
 
