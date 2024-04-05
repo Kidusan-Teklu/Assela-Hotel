@@ -7,17 +7,21 @@
 
 main {
     padding: 200px;
-   
+    display: flex;
+    flex-direction: row;
+    background-image: url(../images/contact.jpg);
+    background-size:cover;
+  
     }
 
 
 section {
     margin-bottom: 20px;
-    color: #555;
+    color: #ff6700;
 }
 
 section h2 {
-    color: #817070;
+    color: #ff6700;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -41,33 +45,46 @@ textarea {
     width: 50%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #968e8e;
     border-radius: 5px;
+    background-color: transparent;
     
 }
 #contact-form a{
     background-color: #8d968f;
     color: #bb1e1e;
-    border: none;
+    border: 2px;
     padding: 10px 20px;
     cursor: pointer;
     
 }
+input[type="submt"]{
+    background-color: royalblue;
+    color: chocolate;
+}
 
 input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+    
 }
 
 #contact-info{
     font-weight:bold;
     font-style: oblique;
+    backdrop-filter: blur(10px);
     
 }
+
+
 #contact-form{
-    font-size: x-large;
+    font-size: xx-large;
+   backdrop-filter: blur(15px);
+    
 }
 #contact-info h2{
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
 }
 
