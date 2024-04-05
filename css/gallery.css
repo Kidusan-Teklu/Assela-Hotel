@@ -14,5 +14,13 @@ margin: 0px;
 .gallery h2
 {
     font-weight: 1000;
-    color:black;
+    color:brown;
+    font-family:fantasy;
+
+
+}
+
+.gallery pre
+{
+    font-family: cursive;
 }
