@@ -1,43 +1,38 @@
-.hall{
-    width: 100%;
+main{
+    background-color: gray;
+    margin-left: 70px;
 }
 
-.headerr
+.event_hall h1
 {
-
-color: red;
-text-align: center;
-font-family: cursive;
-
+text-align:left;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 margin: auto;
 margin-top:0px;
+color: darkblue;
+font-weight: bolder;
 }
-.event_hall img,p
+.event_hall img,pre
 {
     margin-left: 15px;
 }
 .event_hall img
 {
     margin-left: 10px;
-    text-align: center;
+    
     width: 850px;
 }
 
-.event_hall h2
-{
-    color: red;
-    text-align: center;
-    font-family: cursive; 
-}
-.hall p b
+.hall pre b
 {
 color: red;
 font-size: larger;
 font-family: cursive;
 }
-.hall p
+.hall,.wedding pre
 {
     font-family: cursive;
+    font-size: larger;
 }
 .event_hall
 {
