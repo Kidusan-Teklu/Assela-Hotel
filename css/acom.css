@@ -5,13 +5,21 @@ main {
 
   .room-type {
     margin-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
     padding: 15px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+  flex-direction: row;
   }
   
-
-  .room-type img {
+.room-type img{
+  width: 50%;
+  margin: 20%;
+  height: auto;
+}
+  .room-type section img {
     width: 100%;
     height: auto;
     display: block;
@@ -21,18 +29,20 @@ main {
     height: auto; 
   }
 
-  .room-type img:hover {
+  .room-type section img:hover {
     transform: scale(1.1);
   }
-
-  .room-type h2 {
+.room-type section{
+  width: 80%;
+}
+  .room-type section h2 {
     font-size: 24px;
     margin-bottom: 10px;
     color: rgb(228, 83, 30);
     font-weight: 900;
   }
 
-  .room-type p {
+  .room-type section p {
     font-size: 16px;
     margin-bottom: 8px;
     font-weight: 700;

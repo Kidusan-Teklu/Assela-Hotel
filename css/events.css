@@ -1,5 +1,5 @@
 main{
-    background-color: #fff;
+    background-color: #f4f4f4;
     margin-left: 70px;
 }
 
@@ -45,7 +45,7 @@ font-family: cursive;
     margin-bottom: 20px;
     margin-right: 15px;
     padding: 15px;
-    background-color: #c9c4c4;
+    background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 
 }
@@ -56,6 +56,6 @@ font-family: cursive;
     margin-bottom: 20px;
     margin-right: 15px;
     padding: 15px;
-    background-color: #c9c4c4;
+    background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
